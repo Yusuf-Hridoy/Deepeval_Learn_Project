@@ -1,7 +1,7 @@
 # RUN
 
 ```powershell
-cd "D:\Ai testing\DeepEval\EASmartShopping"
+cd "D:\Ai testing\DeepEval\Zentra"
 .\start.ps1
 ```
 
@@ -13,13 +13,13 @@ Script blocked? `powershell -ExecutionPolicy Bypass -File ".\start.ps1"`
 ## Manual (two terminals)
 
 ```powershell
- cd "D:\Ai testing\DeepEval\EASmartShopping\backend"
+ cd "D:\Ai testing\DeepEval\Zentra\backend"
   ..\.venv\Scripts\python.exe -m uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
 ```powershell
 cd frontend
-cd "D:\Ai testing\DeepEval\EASmartShopping\frontend"
+cd "D:\Ai testing\DeepEval\Zentra\frontend"
   npm run dev
 ```
 
