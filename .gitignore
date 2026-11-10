@@ -1,0 +1,53 @@
+# ── Python ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# ── Pytest ───────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Secrets / local config ───────────────────────────────
+# Keep an .env.example checked in instead.
+.env
+.env.*
+!.env.example
+
+# ── DeepEval run artifacts ───────────────────────────────
+.deepeval/
+.deepeval-cache.json
+.deepeval_telemetry.txt
+.latest_test_run.json
+.latest_run_full.json
+temp_test_run_data.json
+
+# ── Zentra app data (EASmartShopping/backend) ────────────
+ecommerce.db
+ecommerce.db-*
+chroma_db/
+*.log
+
+# ── Notebooks ────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Node / Next.js (EASmartShopping/frontend) ────────────
+node_modules/
+.next/
+out/
+build/
+tsconfig.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# ── OS / editor ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

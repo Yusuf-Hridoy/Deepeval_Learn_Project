@@ -1,0 +1,32 @@
+{
+  "name": "zentra-frontend",
+  "version": "1.0.0",
+  "description": "Zentra storefront \u2014 Next.js + React UI for the Zentra AI shopping assistant",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "zentra",
+    "ecommerce",
+    "nextjs",
+    "rag",
+    "ollama"
+  ],
+  "author": "Zentra",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "next": "^16.2.1",
+    "postcss": "^8.5.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2"
+  }
+}
